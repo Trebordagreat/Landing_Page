@@ -52,3 +52,31 @@ button {
     background-color: #3882f6;
     color:white;
 }
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.infos {
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.infos img {
+    width: 200px;
+    height: auto;
+}
+
+.infos p {
+    text-align: center;
+    width: 200px;
+}
