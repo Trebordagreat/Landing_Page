@@ -80,3 +80,22 @@ button {
     text-align: center;
     width: 200px;
 }
+
+.bottom {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom p {
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.bottom div {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
