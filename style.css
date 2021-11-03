@@ -3,6 +3,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .logo {
@@ -17,9 +19,10 @@
 
 ul {
     display: flex;
-    margin-left: 0;
+    margin-left: auto;
     list-style-type: none;
-    gap: 16px;
+    gap: 10px;
+    padding: 0px;
 }
 
 a {
@@ -40,6 +43,10 @@ a {
     align-items: center;
     justify-content: center;
     gap: 32px;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .top-left {
@@ -51,12 +58,23 @@ button {
     border-radius: 8px;
     background-color: #3882f6;
     color:white;
+    border-width: 4px;
+    padding: 6px;
+    width: 120px;
 }
 
-.middle {
+.middle,
+.info {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.middle {
+    padding: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 24px;
 }
 
 .middle-header {
@@ -86,6 +104,9 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .bottom p {
@@ -100,10 +121,19 @@ button {
     font-weight: bold;
 }
 
+.cta {
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .call-to-action {
     background-color: #3882f6;
     display: flex;
     align-items: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .cta-left {
